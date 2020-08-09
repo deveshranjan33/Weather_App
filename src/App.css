@@ -1,8 +1,11 @@
-.App {
-	background-image : url(https://lh3.googleusercontent.com/proxy/RoTXd_2O5apHFpvT0n4lMLOw9pH3g14lXp2fbYOslZL1BOWQm7Egn8UgIhzQcB-TXMOYxIzpGr6XipLL8nbuMxaS2HTmSdl9Z5HmjX8ASxA4OD_Nnd_VzF3adDcwoCcWdXzjQq_O7VNEQ18YvZ7IDxh2wDSHSATJ1Pl-Vja5);
+.back {
+	background-image : url(./assets/background_image.jpg);
 	background-size : cover;
 	height : 100vh;
 	width : 100vw;
+}
+.App {
+    color : white;
 }
 .icon-weather {
         font-size : 10rem;
@@ -20,4 +23,5 @@ h2 {
 
 .form1:focus {
         background-color : transparent;
+        color : white;
 }
